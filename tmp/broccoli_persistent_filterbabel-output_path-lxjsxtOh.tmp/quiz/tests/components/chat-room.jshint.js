@@ -1,0 +1,9 @@
+define('quiz/tests/components/chat-room.jshint', ['exports'], function (exports) {
+  'use strict';
+
+  QUnit.module('JSHint - components/chat-room.js');
+  QUnit.test('should pass jshint', function (assert) {
+    assert.expect(1);
+    assert.ok(false, 'components/chat-room.js should pass jshint.\ncomponents/chat-room.js: line 1, col 1, \'import\' is only available in ES6 (use \'esversion: 6\').\ncomponents/chat-room.js: line 2, col 1, \'const\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/chat-room.js: line 2, col 1, \'destructuring binding\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/chat-room.js: line 6, col 1, \'export\' is only available in ES6 (use \'esversion: 6\').\ncomponents/chat-room.js: line 10, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/chat-room.js: line 11, col 17, \'spread/rest operator\' is only available in ES6 (use \'esversion: 6\').\ncomponents/chat-room.js: line 14, col 3, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/chat-room.js: line 15, col 36, \'arrow function syntax (=>)\' is only available in ES6 (use \'esversion: 6\').\ncomponents/chat-room.js: line 16, col 7, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\ncomponents/chat-room.js: line 22, col 5, \'concise methods\' is available in ES6 (use \'esversion: 6\') or Mozilla JS extensions (use moz).\ncomponents/chat-room.js: line 23, col 28, \'template literal syntax\' is only available in ES6 (use \'esversion: 6\').\n\n11 errors');
+  });
+});

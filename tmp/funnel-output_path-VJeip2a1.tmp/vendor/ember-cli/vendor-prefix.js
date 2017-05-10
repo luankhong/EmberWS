@@ -1,0 +1,1 @@
+/Users/phongvu/CPSC473/EmberProject/tmp/funnel-input_base_path-2pMHn12o.tmp/vendor-prefix.js

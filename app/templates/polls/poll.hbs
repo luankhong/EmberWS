@@ -1,0 +1,23 @@
+<main class="card card--light">
+  <h3 class="border">{{model.question}}</h3>
+  <div class="border">
+    <div class="grid group">
+
+      <div class="card-content grid-box grid-box--3of5">
+        <ul class="list list--answer">
+          {{#each model.options as |option|}}
+            <li class="list-item">
+              <button class="list-item-checkbox" {{action "voteForOption" model option}}>
+                <b class="srt">Select</b>
+              </button>
+              <span>{{option.value}}</span>
+            </li>
+          {{/each}}
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+{{ws-poll}}
